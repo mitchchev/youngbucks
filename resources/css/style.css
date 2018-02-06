@@ -91,7 +91,7 @@ header {
   background-image: url(../images/band-ay.jpg);
   background-size: cover;
   width: 100%;
-  height: 40rem;
+  height: 55rem;
 
 }
 .headline {
@@ -166,6 +166,7 @@ nav {
 
  .media-heading {
    background-image: url(../images/media.jpg);
+
    background-size: cover;
    color: white;
    margin-top: 3rem;
@@ -173,10 +174,13 @@ nav {
  }
  .media {
    display: flex;
+   justify-content: space-between;
    width: 100%;
-   height: 30rem;
+   height: 25rem;
+   margin: 3rem 0;
  }
- .media video {
-   max-width: 30%;
+ .media iframe {
+   max-width: 45%;
    height: auto;
+
  }
